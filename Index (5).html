@@ -17,7 +17,7 @@
         }
 
         img#backgroundimg {
-            width: 110%;
+            width: 100%;
             /* z-index: -1; */
         }
 
@@ -32,10 +32,6 @@
             /* border: 2px solid red; */
             width: 630px;
             height: 27px;
-        }
-
-        ul#mainlist1 {
-            display: none;
         }
 
         li#list1 {
@@ -251,24 +247,24 @@
             width: 31%;
         }
 
-        /* for tablet */
-
-        @media screen and (min-width : 601px) and (max-width : 992px) {
+        /* for tab */
+        @media screen and (min-width:620px) and (max-width:992px) {
             .container {
                 width: 100%;
-                height: 475px;
+                height: 751px;
                 position: relative;
             }
 
             img#backgroundimg {
-                width: 110%;
+                width: 100%;
                 /* z-index: -1; */
             }
 
-            li#list2 {
-                text-align: right;
-                direction: rtl;
-                margin-bottom: 10px;
+            #textcontent {
+                position: absolute;
+                bottom: 102px;
+                left: 572px;
+                position: right;
             }
 
             ul#mainlist {
@@ -277,81 +273,72 @@
                 height: 27px;
             }
 
-            #textcontent {
-                position: absolute;
-                top: 15px;
-                left: 130px;
-                position: right;
+            li#list1 {
+                float: left;
+                padding: 10px;
+                list-style: none;
             }
 
             p#discover {
                 position: relative;
-                top: 100px;
-                right: 100px;
+                top: 166px;
+                right: 586px;
             }
 
             h1#dhm {
                 position: relative;
-                top: 90px;
-                right: 100px;
+                top: 166px;
+                right: 588px;
             }
 
             p#para {
                 position: relative;
-                top: 95px;
-                right: 100px;
-                width: 60%;
-                font-size: smaller;
+                top: 185px;
+                right: 585px;
             }
 
             button.btn.btn-info {
                 border-radius: 26px;
                 position: relative;
-                top: 120px;
-                right: 85px;
+                top: 224px;
+                right: 583px;
                 color: white;
             }
 
             ul#ullist2 {
                 position: relative;
-                top: -150px;
-                right: 30px;
-                font-size: x-small;
+                top: -55px;
+                right: 17px;
             }
-
-
 
             li#list2 {
                 text-align: right;
                 direction: rtl;
-                margin-bottom: 10px;
+                margin-bottom: 24px;
             }
 
             li.list123 {
                 text-align: right;
                 direction: rtl;
-                margin-bottom: 10px;
-                margin-right: -14px;
+                margin-bottom: 24px;
+                margin-right: -20px;
             }
 
             img#final {
                 position: relative;
-                top: -80px;
-                left: 210px;
+                top: 9px;
             }
-
-
 
             section.container {
                 width: 100%;
                 /* border: 2px solid; */
-                height: 475px;
+                height: 521px;
             }
 
             div#images {
                 /* border: 2px solid green; */
                 width: 88%;
-                margin-top: 30px;
+                margin-top: 73px;
                 display: flex;
             }
 
@@ -390,39 +377,38 @@
             img#img22 {
                 width: 100%;
                 position: relative;
-                top: 75px;
+                top: 129px;
             }
 
             img#img33 {
                 width: 100%;
                 position: relative;
-                top: 75px;
+                top: 129px;
             }
 
             img#img44 {
                 width: 100%;
                 position: relative;
-                top: 75px;
+                top: 129px;
             }
 
             ul#ullist3 {
                 position: relative;
-                top: -235px;
-                right: -17px;
-                font-size: x-small;
+                top: -340px;
+                right: -38px;
             }
 
             li#list3 {
                 text-align: right;
                 direction: rtl;
-                margin-bottom: 10px;
+                margin-bottom: 24px;
             }
 
             li.list1234 {
                 text-align: right;
                 direction: rtl;
-                margin-bottom: 10px;
-                margin-right: -14px;
+                margin-bottom: 24px;
+                margin-right: -20px;
             }
 
             p#para1 {
@@ -434,7 +420,7 @@
 
             h1#head1 {
                 position: relative;
-                top: 10px;
+                top: -104px;
                 color: white;
                 font-size: 19px;
                 left: 23px;
@@ -442,8 +428,8 @@
 
             p#para2 {
                 position: relative;
-                top: 0px;
-                left: 100pxpx;
+                top: -120px;
+                left: 181px;
                 color: white;
             }
 
@@ -478,13 +464,13 @@
             div#leftright {
                 float: left;
                 position: relative;
-                bottom: 250px;
+                bottom: 283px;
             }
 
             div#rightleft {
                 float: right;
                 position: relative;
-                bottom: 250px;
+                bottom: 282px;
                 right: 128px;
             }
 
@@ -499,270 +485,6 @@
             img#seeall {
                 width: 31%;
             }
-
-            ul#mainlist1 {
-                display: none;
-            }
-
-        }
-
-
-
-
-
-        /* for mobile */
-
-        @media only screen and (max-width: 600px) {
-            .container {
-                width: 100%;
-                height: 550px;
-                position: relative;
-                padding-top: 20px;
-            }
-
-            img#backgroundimg {
-                width: 161%;
-                position: relative;
-                right: 170px;
-            }
-
-            li#list2 {
-                text-align: right;
-                direction: rtl;
-                margin-bottom: 10px;
-            }
-
-            ul#mainlist {
-                display: none;
-            }
-
-            ul#mainlist1 {
-                display: block;
-                width: 570px;
-                position: absolute;
-                height: 27px;
-                top: -10px;
-                left: 172px;
-            }
-
-            #textcontent {
-                position: absolute;
-                top: 15px;
-                left: 130px;
-                width: 100%;
-                position: right;
-            }
-
-            p#discover {
-                position: relative;
-                top: 260px;
-                right: 100px;
-            }
-
-            h1#dhm {
-                position: relative;
-                top: 250px;
-                right: 100px;
-            }
-
-            p#para {
-                position: relative;
-                top: 245px;
-                right: 100px;
-                width: 90%;
-                font-size: smaller;
-            }
-
-            button.btn.btn-info {
-                border-radius: 26px;
-                position: relative;
-                top: 215px;
-                right: 100px;
-                color: white;
-            }
-
-            ul#ullist2 {
-                display: none;
-            }
-
-
-
-            li#list2 {
-                text-align: right;
-                direction: rtl;
-                margin-bottom: 10px;
-            }
-
-            li.list123 {
-                text-align: right;
-                direction: rtl;
-                margin-bottom: 10px;
-                margin-right: -14px;
-            }
-
-            img#final {
-                position: relative;
-                top: -80px;
-                left: 210px;
-            }
-
-
-
-            section.container {
-                width: 100%;
-                /* border: 2px solid; */
-                height: 250px;
-            }
-
-            div#images {
-                /* border: 2px solid green; */
-                width: 88%;
-                margin-top: 30px;
-                display: flex;
-            }
-
-            div#img1 {
-                width: 25%;
-                margin: 4px;
-                position: relative;
-            }
-
-            div#img3 {
-                width: 25%;
-                margin: 4px;
-                position: relative;
-            }
-
-            div#content1 {
-                position: absolute;
-            }
-
-            div#content2 {
-                position: absolute;
-            }
-
-            div#content3 {
-                position: absolute;
-            }
-
-            div#content4 {
-                position: absolute;
-            }
-
-            img#img11 {
-                width: 100%;
-            }
-
-            img#img22 {
-                width: 100%;
-                position: relative;
-                top: 35px;
-            }
-
-            img#img33 {
-                width: 100%;
-                position: relative;
-                top: 35px;
-            }
-
-            img#img44 {
-                width: 100%;
-                position: relative;
-                top: 35px;
-            }
-
-            ul#ullist3 {
-                display: none;
-            }
-
-            /* li#list3 {
-                text-align: right;
-                direction: rtl;
-                margin-bottom: 10px;
-            } */
-
-            li.list1234 {
-                text-align: right;
-                direction: rtl;
-                margin-bottom: 10px;
-                margin-right: -14px;
-            }
-
-            p#para1 {
-                position: relative;
-                top: -379px;
-                color: white;
-                left: 172px;
-            }
-
-            h1#head1 {
-                position: relative;
-                top: 10px;
-                color: white;
-                font-size: 19px;
-                left: 23px;
-            }
-
-            p#para2 {
-                position: relative;
-                top: 0px;
-                left: 100pxpx;
-                color: white;
-            }
-
-            p#para4 {
-                position: relative;
-                left: 120px;
-            }
-
-            h1#head2 {
-                top: 9px;
-                font-size: 19px;
-                color: white;
-                position: relative;
-                left: 25px;
-            }
-
-            p#para3 {
-                color: white;
-                position: relative;
-                text-decoration: underline;
-                left: 26px;
-            }
-
-            p#para4 {
-                color: white;
-                position: relative;
-                top: -114px;
-                left: 23px;
-                text-decoration: underline;
-            }
-
-            div#leftright {
-                float: left;
-                position: relative;
-                bottom: 0px;
-            }
-
-            div#rightleft {
-                float: right;
-                position: relative;
-                bottom: 0px;
-                right: 0px;
-            }
-
-            img#left {
-                width: 31%;
-            }
-
-            img#right {
-                width: 31%;
-            }
-
-            img#seeall {
-                width: 31%;
-            }
-
         }
     </style>
 </head>
@@ -779,9 +501,6 @@
                 <li id="list1">LEASING</li>
                 <li id="list1"><i class="fas fa-search"></i></li>
                 <li id="list1">العربية</li>
-            </ul>
-            <ul id="mainlist1">
-                <li id="search"><i class="fas fa-search"></i></li>
             </ul>
             <p id="discover">D I S C O V E R</p>
             <h1 id="dhm">DUBAI HILLS MALL</h1>

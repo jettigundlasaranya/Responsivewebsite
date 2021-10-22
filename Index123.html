@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/31c8dc48b0.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        #main {
+            width: 100%;
+            height: 600px;
+        }
+
+        section {
+            width: 100%;
+            background-image: url(Images/back.png);
+            height: 750px;
+            background-position: center;
+            background-size: contain;
+        }
+
+        nav {
+            float: right;
+            width: 100%;
+            text-align: right;
+        }
+
+        #menudiv {
+            display: none;
+        }
+
+        nav ul {
+            list-style: none;
+            display: inline-block;
+        }
+
+        nav ul li {
+            display: inline-block;
+            padding: 15px;
+        }
+
+        .mid {
+            width: 100%;
+            height: 500px;
+        }
+
+        button.btn.btn-info {
+            border-radius: 26px;
+            color: white;
+        }
+
+        article {
+            width: 60%;
+            padding: 300px 100px;
+            float: left;
+        }
+
+        aside {
+            width: 30%;
+            padding: 300px 40px;
+            text-align: right;
+            float: right;
+        }
+
+        aside ul li {
+            direction: rtl;
+            margin-bottom: 30px;
+        }
+
+        section img {
+            position: relative;
+            top: 700px;
+            left: 700px;
+        }
+
+        @media screen and (min-width:670px) and (max-width:992px) {
+            #main {
+                width: 100%;
+                overflow: auto;
+            }
+
+            section {
+                width: 100%;
+                background-image: url(Images/back.png);
+                height: 750px;
+                background-position: right;
+                background-size: cover;
+            }
+
+            nav {
+                float: right;
+                text-align: right;
+            }
+
+            #menudiv {
+                display: block;
+            }
+
+            #menudiv li {
+                display: inline-block;
+            }
+
+            .mid {
+                width: 100%;
+                height: 750px;
+                margin-top: 30px;
+            }
+
+            #div1 {
+                border: 5px solid;
+                height: 10px;
+                padding: 2px;
+                margin: 2px;
+                width: 45px;
+            }
+
+            nav ul {
+                display: none;
+            }
+
+
+            button.btn.btn-info {
+                border-radius: 26px;
+                color: white;
+            }
+
+            article {
+                width: 60%;
+                padding: 286px 39px;
+                float: left;
+            }
+
+            aside {
+                width: 30%;
+                padding: 300px 40px;
+                text-align: right;
+                float: right;
+            }
+
+            aside ul li {
+                direction: rtl;
+                margin-bottom: 30px;
+            }
+
+            section img {
+                position: relative;
+                top: 675px;
+                left: -51px;
+            }
+        }
+
+        /* for mobile */
+        @media screen and (max-width:660px) {
+            #main {
+                width: 100%;
+                overflow: auto;
+            }
+
+            section {
+                width: 100%;
+                background-image: url(Images/back.png);
+                height: 824px;
+                background-size: 340px;
+                background-repeat: no-repeat;
+                background-position: top;
+            }
+
+            nav {
+                float: right;
+                text-align: right;
+            }
+
+            #menudiv {
+                display: block;
+            }
+
+            #menudiv li {
+                display: inline-block;
+            }
+            li span i{
+                
+            }
+            i.fas.fa-2x.fa-search {
+                margin-right: -15px;
+                margin-bottom: -17px;
+            }
+
+            .mid {
+                width: 100%;
+                height: 750px;
+                margin-top: 30px;
+            }
+
+            #div1 {
+                border: 5px solid;
+                height: 0px;
+                padding: 2px;
+                margin: 2px;
+                width: 39px;
+            }
+
+            nav ul {
+                display: none;
+            }
+
+
+            button.btn.btn-info {
+                border-radius: 26px;
+                color: white;
+            }
+
+            article {
+                width: 100%;
+                padding: 77px 21px;
+                float: left;
+            }
+
+            aside {
+                display: none;
+            }
+
+            aside ul li {
+                direction: rtl;
+                margin-bottom: 30px;
+            }
+
+            section img {
+                position: relative;
+                top: -43px;
+                left: 153px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <section>
+
+            <nav>
+                <ul>
+                    <li>WHAT'S NEW</li>
+                    <li>PLAN A VISIT</li>
+                    <li>MALL MAP</li>
+                    <li>SERVICES</li>
+                    <li>LEASING</li>
+                    <li><i class="fas fa-search"></i></li>
+                    <li>العربية</li>
+                </ul>
+                <div id="menudiv">
+                    <li><span><i class="fas fa-2x fa-search"></i></span></li>&nbsp;&nbsp;&nbsp;
+                    <li>
+                        <div id="div1"></div>
+                        <div id="div1"></div>
+                        <div id="div1"></div>
+                    </li>
+
+                </div>
+            </nav> <br>
+
+            <div class="mid">
+                <article>
+                    <p id="discover">D I S C O V E R</p> <br>
+                    <h1 id="dhm">DUBAI HILLS MALL</h1> <br>
+                    <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua.</p>
+                    <br>
+                    <button class="btn btn-info">Know More</button>
+                </article>
+
+                <aside>
+                    <ul>
+                        <li style="color: aqua; list-style: none; margin-right:-23px">|&nbsp; &nbsp;DH MALL</li>
+                        <li>SHOP</li>
+                        <li>DINE</li>
+                        <li>ENTERTAIN </li>
+                        <li>OFFERS</li>
+                        <li>LOYALITY PROGRAM</li>
+                    </ul>
+                </aside>
+
+                <img src="Images/loading.png" alt="">
+            </div>
+
+
+        </section>
+    </div>
+</body>
+
+</html>
